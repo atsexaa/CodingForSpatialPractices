@@ -1,0 +1,109 @@
+header {
+    text-align: center;
+    background-color: rgb(240, 236, 224);
+    color: rgb(4, 60, 24);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(4, 60, 24);
+    width: auto; 
+    box-sizing: border-box; 
+}
+
+/* Adjust the content container */
+.content-container {
+    display: flex;
+    flex-direction: column; /* Stack header vertically */
+    width: 75%; /* Set a specific width to align with images */
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(240, 236, 224);
+    padding: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 auto; /* Center the container */
+    box-sizing: border-box; 
+}
+
+h1 {
+    color: rgb(4, 60, 24); 
+    font-size: 60px; 
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px; /* Space between images */
+    border: none;
+    margin-top: 80px;
+    width: 100%; /* Full width to align with the content-container */
+}
+
+.image-container figure {
+    text-align: center; /* Center the caption under the image */
+    width: 35%; /* Ensure each figure takes the same width as the image */
+    margin: 0; /* Remove default margin */
+}
+
+.image-container img {
+    width: 100%; /* Full width of the figure */
+    height: 98%; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded edges for images */
+}
+
+figcaption {
+    margin-top: 10px; /* Space between the image and caption */
+    font-size: 14px; /* Font size for the caption */
+    color: rgb(4, 60, 24); /* Caption color to match your theme */
+}
+
+/* Text columns styling */
+.text-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 100px;
+    margin-top: 80px;
+    width: 100%; /* Full width to match image-container */
+}
+
+.text-column {
+    width: 35%; /* Same width as images */
+    border: 1px solid rgb(4, 60, 24); /* Optional border for columns */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px; /* Padding inside columns */
+}
+
+/* Body and text styling */
+body {
+    background-color: rgb(240, 236, 224);
+    color: rgb(4, 60, 24);
+    font-family: 'Helvetica';
+}
+
+h2 {
+    color: rgb(4, 60, 24);
+    font-size: 50px; 
+    font-weight: lighter;
+}
+
+h3 {
+    color: rgb(4, 60, 24);
+    font-size: 40px; /* Adjusted for better visibility */
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h4 {
+    color: rgb(4, 60, 24);
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+p {
+    color: rgb(4, 60, 24);
+    font-size: 30px;
+    line-height: 50px;
+}
