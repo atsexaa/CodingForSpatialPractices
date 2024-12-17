@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
           skills highlights, the directory is the start of a new platform for fashion discovery. The site is currently home to 75 designers
           spanning the globe, from New York to Tibilisi, Georgia, who have started up brands in the last few years and are quickly making a
           name for themselves, or have been a long-term magnetizing force in the underground. The site aims to give you a glimpse into their
-          worlds and be a point of connectivity - hopefully, prayerfully a place from which your relationship with them, and my relationship
+          worlds and be a point of connectivity - hopefully a place from which your relationship with them, and my relationship
           with this medium can grow.</em></p>
         </div>
       `;

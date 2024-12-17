@@ -75,20 +75,27 @@ body, html {
     display: block;
   }
   
-  /* Brand Display Styles */
   .brand-display-container {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the .brand-content horizontally */
+    justify-content: center;
+    max-width: 1000px; /* Optional: limit the overall width of the container */
+    margin: 0 auto; /* Centers the container in the screen if it has a set max-width */
   }
   
-  /* Updated brand-content to account for .image-wrapper */
   .brand-content {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap; /* Helps if window is small */
+    flex-wrap: wrap;
     margin-bottom: 20px;
+    justify-content: center; /* Center the image-wrappers horizontally */
+    align-items: center;     /* Align them vertically if there's extra height */
+    max-width: 900px;        /* Optional: limit the row width to keep images from stretching too far */
+    margin: 0 auto;          /* Center .brand-content if needed */
   }
   
-  /* Each image and caption are wrapped in .image-wrapper */
   .image-wrapper {
     display: flex;
     flex-direction: column;
@@ -102,24 +109,4 @@ body, html {
     height: auto;
     border: 1px solid #ddd;
     border-radius: 8px;
-  }
-  
-  .image-wrapper p {
-    margin: 10px 0 0 0; /* Space above caption */
-    font-size: 0.9rem;
-    color: #66635B;
-  }
-  
-  /* Brand description styling */
-  .brand-description {
-    margin-top: 20px;
-  }
-  
-  .brand-description h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .brand-description p {
-    margin: 5px 0;
   }
