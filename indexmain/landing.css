@@ -9,7 +9,7 @@ body, html {
     display: block;
     width: 100%;
     height: 100vh; /* Full viewport height */
-    background-image: url('img/landingpageEDIT.png'); /* Ensure the path is correct */
+    background-image: url('img/landingpageV3.png'); /* Ensure the path is correct */
     background-size: cover;
     background-position: center; /* Centers the image */
     text-decoration: none; /* Removes underline for the link */
