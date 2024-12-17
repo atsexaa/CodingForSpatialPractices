@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+    color: #04052E;
+    background-color: #edecec; 
+  }
+  
+  .title-container {
+    background-color: #edecec;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .title-container h1 {
+    margin: 20px;
+    font-size: 2rem;
+    /* Inherits text color from body */
+  }
+  
+  /* Navigation styles */
+  .navbar {
+    background-color: #edecec;
+    padding: 0;
+    /* Left alignment already set */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  .nav-item {
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    color: #04052E;
+    text-decoration: none;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #edecec; /* Corrected double hash */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ddd;
+    z-index: 1000;
+  }
+  
+  .dropdown li a {
+    display: block;
+    padding: 10px;
+    color: #04052E;
+    text-decoration: none;
+  }
+  
+  .dropdown li a:hover {
+    background: #ddd;
+  }
+  
+  /* Show dropdown when .show class is added via JS */
+  .dropdown.show {
+    display: block;
+  }
+  
+  /* Brand Display Styles */
+  .brand-display-container {
+    padding: 30px;
+  }
+  
+  /* Updated brand-content to account for .image-wrapper */
+  .brand-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Helps if window is small */
+    margin-bottom: 20px;
+  }
+  
+  /* Each image and caption are wrapped in .image-wrapper */
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    max-width: 400px;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .image-wrapper p {
+    margin: 10px 0 0 0; /* Space above caption */
+    font-size: 0.9rem;
+    color: #66635B;
+  }
+  
+  /* Brand description styling */
+  .brand-description {
+    margin-top: 20px;
+  }
+  
+  .brand-description h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .brand-description p {
+    margin: 5px 0;
+  }
