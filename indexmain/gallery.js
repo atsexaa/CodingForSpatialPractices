@@ -108,19 +108,19 @@ document.addEventListener('DOMContentLoaded', () => {
       brandDisplayContainer.innerHTML = `
         <div class="brand-content">
           <div class="image-wrapper">
-            <img src="${image1}" alt="${brandsAndDesigners} Image 1">
-            <p><em>${image1Description}</em></p>
+            <img src="${image1}" alt="${brandsAndDesigners || ''} Image 1">
+            <p><em>${image1Description || ''}</em></p>
           </div>
           <div class="image-wrapper">
-            <img src="${image2}" alt="${brandsAndDesigners} Image 2">
-            <p><em>${image2Description}</em></p>
+            <img src="${image2}" alt="${brandsAndDesigners || ''} Image 2">
+            <p><em>${image2Description || ''}</em></p>
           </div>
         </div>
         <div class="brand-description">
-          <h2>${brandsAndDesigners}</h2>
-          <p><strong>Lead Designer(s):</strong> ${leadDesigner}</p>
-          <p><strong>Home Base:</strong> ${place}</p>
-          <p><em>${about}</em></p>
+          <h2>${brandsAndDesigners || ''}</h2>
+          <p><strong>Lead Designer(s):</strong> ${leadDesigner || ''}</p>
+          <p><strong>Home Base:</strong> ${place || ''}</p>
+          <p><em>${about || ''}</em></p>
         </div>
       `;
     } else {
