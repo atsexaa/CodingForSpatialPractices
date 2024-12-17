@@ -9,4 +9,4 @@ Repository
 See my Are.na Channel
 [Atsede's Are.na](https://www.are.na/atsede-assayehgen/channels)
 
-Catalog of ideas: pending
+[Catalog Site / Final] (https://atsexaa.github.io/CodingForSpatialPractices/indexmain/landing.html)
